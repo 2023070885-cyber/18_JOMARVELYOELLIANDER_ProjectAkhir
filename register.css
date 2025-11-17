@@ -1,0 +1,73 @@
+/* Background kuning & center container */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffeb3b; /* kuning */
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container biru muda */
+.containerR {
+    background-color: #a7d3ff; /* biru muda */
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+/* Tabel form */
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+td {
+    padding: 8px 5px;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* Input */
+input, select {
+    padding: 8px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Tombol daftar */
+button {
+    padding: 10px 25px;
+    background-color: #0059b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+/* Link */
+a {
+    color: #003366;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #001f40;
+}

@@ -1,0 +1,66 @@
+/* Background orange & center container */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffa64d; /* orange */
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Box form biru */
+.container {
+    background-color: #4da6ff; /* biru */
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Table */
+table {
+    margin: 0 auto;
+}
+
+/* Input style */
+input {
+    padding: 8px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0059b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+/* Link styling */
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #e6e6e6;
+}
